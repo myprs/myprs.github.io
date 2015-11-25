@@ -7,11 +7,11 @@
 
 # Site settings
 title: my personal rocket science
-email: webmaster@myprs.de
+email: webmaster@mypersonalrocketscience.de
 description: > # this means to ignore newlines until "baseurl:"
   Some of the stuff here may be considered as rocket science by most of the people. I don't. I find it interesting...
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mypersonalrocketscience" # the base hostname & protocol for your site
+url: "http://www.mypersonalrocketscience.de" # the base hostname & protocol for your site
 #twitter_username: jekyllrb
 github_username:  myprs
 
