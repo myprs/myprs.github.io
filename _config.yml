@@ -17,3 +17,7 @@ github_username:  myprs
 
 # Build settings
 markdown: kramdown
+
+gems:
+  - jekyll-sitemap
+
