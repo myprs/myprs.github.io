@@ -9,6 +9,7 @@ categories: letsencrypt, nginx, primer
 There has been lots of announcements and previews of ["letsencrypt"][letsencrypt]. Now the public beta phase of the project has begun and I want to get my hands dirty to give it a try.
 
 The concept is appealing to me, but at this point I only do have a rough idea what is coming ahead. What I do understand right now is:
+
 * certificates are for free [("as in beer")][asinbeer].
 * certificates will be accepted by most or all web browsers. (no "untrusted certificate, add exception dialogue" any more, driving your dad away from using your services)
 * certificate renewal can be automatised. At least it can be archived by running a command on the web server.
@@ -39,7 +40,8 @@ So lets get started. My prerequisites are:
 
 Done!
 
-I guess that on successive runs this also will pull in updates of these packages if needed. Anyway, you are able to keep letsencrypt up to date by 
+I guess that on successive runs this also will pull in updates of these packages if needed. Anyway, you are able to keep letsencrypt up to date by:
+
 - pulling git hub, which will probably be done by running `./letsencrypt-auto ...`
 - running `letsencrypt-auto`, which you will at a maximum 90 days cycle to resign your certificate,
   - checking the github repo
