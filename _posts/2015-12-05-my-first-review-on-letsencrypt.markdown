@@ -200,10 +200,13 @@ The simple version (from the documentation) is:
 
 - with the setup above setup, run ```./letsencrypt-auto -c /etc/letsencrypt/my.example.de certonly``` 
 
-but this will give you some interactive backchat:
-> Do you want to renew and replace this certificate with a newly-issued one?
-> -------------------------------------------------------------------------------
-> (R)eplace/(C)ancel:
+but this will give you some interactive chat:
+
+```
+Do you want to renew and replace this certificate with a newly-issued one?
+-------------------------------------------------------------------------------
+(R)eplace/(C)ancel:
+```
 
 The solution to this is to add the lines 
 
