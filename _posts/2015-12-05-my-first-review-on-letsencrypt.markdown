@@ -86,6 +86,7 @@ Two things keep me from using the fully integrated approach:
 - hosting multiple sites on one instance (aka [name based virtual hosting set-up][namebasedvirtualhosting])
 
 So I give it a first go with:
+
 - using the [webroot plugin][letsencrypt-docs-webroot], which I assume is the right choice for future automation on name based virtual hosts.
 - creating a config file to minimise interaction.
 
@@ -230,6 +231,7 @@ This will (at least under recent Ubuntu distributions) renew the certificate eve
 ### The real world version
 
 The simple version might be appealing but it has no safeguard against any failures at any point. 
+
 - The cron job might not run without being detected (e.g. the server was down at the time)
 - The certificate rewewal might fail due to 
   - failure of letsencrypt-auto to upgrade your distribution
