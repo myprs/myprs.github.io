@@ -30,7 +30,7 @@ So lets get started. My prerequisites are:
   - it is recommended to give an email address which males sense. So I do use an anonymous email address from [the anti spam service spammotel.com][spammotel.com]
 1. The sources are available at [Github][letsencryptgithub].
   - Scroll down the [Github][letsencryptgithub] page to review the projects README file. This will give you a neat rundown.
-1. The extensive documentation is available at [readthedocs][letsencryptgithub-docs].
+1. The extensive documentation is available at ["readthedocs" website][letsencrypt-docs].
 
 ## Installing 
 
@@ -40,13 +40,14 @@ So lets get started. My prerequisites are:
 
 Done!
 
-I guess that on successive runs this also will pull in updates of these packages if needed. Anyway, you are able to keep letsencrypt up to date by:
+On successive runs this also will pull in updates of these packages if needed. Anyway, you are able to keep letsencrypt up to date by:
 
 - pulling git hub, which will probably be done by running `./letsencrypt-auto ...`
-- running `letsencrypt-auto`, which you will at a maximum 90 days cycle to resign your certificate,
+- running `letsencrypt-auto` (which you will anyway at a maximum 90 days cycle to renew your certificate), this will:
   - checking the github repo
   - and pulling in the updates from your distros package management, which you also will do on a frequent basis, anyway. 
 
+So chances to stay up to date are pretty good, which is a good idea when you are dealing with crypto.
 
 ### Installing: Reallity Check
 
