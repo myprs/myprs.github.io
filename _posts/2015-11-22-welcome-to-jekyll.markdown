@@ -2,11 +2,12 @@
 layout: post
 title:  "Welcome to my site!"
 date:   2015-11-22 18:08:54 +0100
-categories: general
+categories: general, selfreference
+excerpt_separator: <!--more-->
 ---
 Welcome. I am amazed to announce the launch of my website. 
 
-Over time I always felt the urge to share things I figure out during my geek life. I always felt uncomfortable to just fire up google, every time I had some issues to resolve and just consuming the work of others. This is the start for me to be able to share. I hope to produce some content that will be of some use to others.
+Over time I always felt the urge to share things I figure out during my geek life. I always felt uncomfortable to just fire up google, every time I had some issues to resolve and just consuming the work of others. This is the start for me to be able to share. I hope to produce some content that will be of some use to others.  <!--more-->
 
 When it came to setting up a website I always was hesitant to have all this stuff running: web server, database, some language like php, virtual server or buying some web hosting packages and having to decide what system to run on. For most of the common, recommended CMS you can see the articles on security issues and warnings to update and install patches popping up on a regular basis. I didn't feel that this whole effort was worth it, just to run a little blog.
 
