@@ -1,12 +1,12 @@
 ---
 layout: post
 title:  "First Alpha Version of My Letsencrypt Updater Script Published"
-date:   2015-12-05 16:48:10 +0100
+date:   2015-12-19 16:43:50 +0100
 categories: letsencrypt, nginx, scripting
 ---
 
 
-As promised in my [last post on letsencrypt](letsencrypt,/nginx,/primer/2015/12/05/my-first-review-on-letsencrypt.html) I wanted to look into the problem of updating the signatures if you are running a not so standard setup.
+As promised in my [last post on letsencrypt](/letsencrypt,/nginx,/primer/2015/12/05/my-first-review-on-letsencrypt.html) I wanted to look into the problem of updating the signatures if you are running a not so standard setup.
 
 In my case I am running nginx with multiple [virtual name based hosts][namebasedvirtualhosting]. 
 
