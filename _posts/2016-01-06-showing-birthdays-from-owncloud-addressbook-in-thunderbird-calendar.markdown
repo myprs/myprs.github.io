@@ -6,7 +6,7 @@ categories: Mozilla Thunderbird, Owncloud, Lightning, Thunderbird extensions
 excerpt_separator: <!--more-->
 ---
 
-Yesterday I had to set up [Mozilla Thunderbird][MozillaThunderbird], because I was setting up my new laptop, using [Ubuntu 10.15 (Wili )][UbuntuWili]. Besides the usual trade of setting up email accounts, I had to integrate my owncloud calendars and address book. Nothing really fancy but when reviewing the extensions I did notice that the birthdays from the owncloud address book do not show up in the thunderbird calendar. All the solutions provided by thunderbird extensions did not look appealing to me, but google turned up some description of a not so well documented owncloud feature. <!--more-->
+Yesterday I had to set up [Mozilla Thunderbird][MozillaThunderbird], because I was setting up my new laptop, using [Ubuntu 10.15 (Wili )][UbuntuWili]. Besides the usual trade of setting up email accounts, I had to integrate my owncloud calendars and address book. Nothing really fancy but when reviewing the extensions I did notice that the birthdays from the owncloud address book do not show up in the thunderbird calendar. All the solutions provided by thunderbird extensions did not look appealing to me, but google turned up some description of a not so well documented owncloud feature. One more good thing about this feature is that it is not limited to thunderbird, but it's universal.<!--more-->
 
 First for a short reference, I will list up the plugins used:
 
@@ -21,9 +21,9 @@ There is a CalDav calendar accessible, which contains all the birthdays from you
 
 ``` http(s)://YOUR-OC-URL/remote.php/caldav/calendars/YOUR-USER/contact_birthdays``` 
 
-into you thunderbird as you did with your regular calendars. I do recommend do mark it as read only.
+into you thunderbird as you did with your regular calendars. I do recommend do mark it as read only. Thank you [Max][BlogMehl] for pointing out.
 
-Thank you [Max][BlogMehl] for pointing out.
+Needless to say, that you can integrate this calendar into any Software that is able to integrate CalDav calendars. So this is the universal solution. Nicely done, ownclod!
 
 
 [MozillaThunderbird]: https://www.mozilla.org/de/thunderbird/
